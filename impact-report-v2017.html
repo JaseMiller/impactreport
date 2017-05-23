@@ -67,6 +67,485 @@
 		a.mcnButton{
 			display:block;
 		}
+		img.withITeams {
+			max-width: 200px;
+			padding-top: 10px;
+		}
+		img.irlogo {
+			border-radius: 6px;
+		}
+		.pulldivider {
+			border-top: 1px solid #d3ca96;
+			margin: 0 auto;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			max-width: 100%;
+		}
+
+/* buttons from Bootstrap */
+
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0px;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #333;
+  text-decoration: none;
+}
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  opacity: .65;
+}
+a.btn.disabled,
+fieldset[disabled] a.btn {
+  pointer-events: none;
+}
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-default:focus,
+.btn-default.focus {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #8c8c8c;
+}
+.btn-default:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus {
+  color: #333;
+  background-color: #d4d4d4;
+  border-color: #8c8c8c;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  background-image: none;
+}
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus {
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-default .badge {
+  color: #fff;
+  background-color: #333;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #12646d;
+  border-color: #2e6da4;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #fff;
+  background-color: #204d74;
+  border-color: #122b40;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.btn-primary .badge {
+  color: #337ab7;
+  background-color: #fff;
+}
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-success:focus,
+.btn-success.focus {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #255625;
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.btn-success:active:hover,
+.btn-success.active:hover,
+.open > .dropdown-toggle.btn-success:hover,
+.btn-success:active:focus,
+.btn-success.active:focus,
+.open > .dropdown-toggle.btn-success:focus,
+.btn-success:active.focus,
+.btn-success.active.focus,
+.open > .dropdown-toggle.btn-success.focus {
+  color: #fff;
+  background-color: #398439;
+  border-color: #255625;
+}
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+  background-image: none;
+}
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled.focus,
+.btn-success[disabled].focus,
+fieldset[disabled] .btn-success.focus {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-success .badge {
+  color: #5cb85c;
+  background-color: #fff;
+}
+.btn-info {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.btn-info:focus,
+.btn-info.focus {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #1b6d85;
+}
+.btn-info:hover {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.btn-info:active:hover,
+.btn-info.active:hover,
+.open > .dropdown-toggle.btn-info:hover,
+.btn-info:active:focus,
+.btn-info.active:focus,
+.open > .dropdown-toggle.btn-info:focus,
+.btn-info:active.focus,
+.btn-info.active.focus,
+.open > .dropdown-toggle.btn-info.focus {
+  color: #fff;
+  background-color: #269abc;
+  border-color: #1b6d85;
+}
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+  background-image: none;
+}
+.btn-info.disabled:hover,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info:hover,
+.btn-info.disabled:focus,
+.btn-info[disabled]:focus,
+fieldset[disabled] .btn-info:focus,
+.btn-info.disabled.focus,
+.btn-info[disabled].focus,
+fieldset[disabled] .btn-info.focus {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.btn-info .badge {
+  color: #5bc0de;
+  background-color: #fff;
+}
+.btn-warning {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn-warning:focus,
+.btn-warning.focus {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #985f0d;
+}
+.btn-warning:hover {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.btn-warning:active,
+.btn-warning.active,
+.open > .dropdown-toggle.btn-warning {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.btn-warning:active:hover,
+.btn-warning.active:hover,
+.open > .dropdown-toggle.btn-warning:hover,
+.btn-warning:active:focus,
+.btn-warning.active:focus,
+.open > .dropdown-toggle.btn-warning:focus,
+.btn-warning:active.focus,
+.btn-warning.active.focus,
+.open > .dropdown-toggle.btn-warning.focus {
+  color: #fff;
+  background-color: #d58512;
+  border-color: #985f0d;
+}
+.btn-warning:active,
+.btn-warning.active,
+.open > .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+.btn-warning.disabled:hover,
+.btn-warning[disabled]:hover,
+fieldset[disabled] .btn-warning:hover,
+.btn-warning.disabled:focus,
+.btn-warning[disabled]:focus,
+fieldset[disabled] .btn-warning:focus,
+.btn-warning.disabled.focus,
+.btn-warning[disabled].focus,
+fieldset[disabled] .btn-warning.focus {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #fff;
+}
+.btn-danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.btn-danger:focus,
+.btn-danger.focus {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #761c19;
+}
+.btn-danger:hover {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.btn-danger:active,
+.btn-danger.active,
+.open > .dropdown-toggle.btn-danger {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.btn-danger:active:hover,
+.btn-danger.active:hover,
+.open > .dropdown-toggle.btn-danger:hover,
+.btn-danger:active:focus,
+.btn-danger.active:focus,
+.open > .dropdown-toggle.btn-danger:focus,
+.btn-danger:active.focus,
+.btn-danger.active.focus,
+.open > .dropdown-toggle.btn-danger.focus {
+  color: #fff;
+  background-color: #ac2925;
+  border-color: #761c19;
+}
+.btn-danger:active,
+.btn-danger.active,
+.open > .dropdown-toggle.btn-danger {
+  background-image: none;
+}
+.btn-danger.disabled:hover,
+.btn-danger[disabled]:hover,
+fieldset[disabled] .btn-danger:hover,
+.btn-danger.disabled:focus,
+.btn-danger[disabled]:focus,
+fieldset[disabled] .btn-danger:focus,
+.btn-danger.disabled.focus,
+.btn-danger[disabled].focus,
+fieldset[disabled] .btn-danger.focus {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.btn-danger .badge {
+  color: #d9534f;
+  background-color: #fff;
+}
+.btn-link {
+  font-weight: normal;
+  color: #337ab7;
+  border-radius: 0;
+}
+.btn-link,
+.btn-link:active,
+.btn-link.active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  border-color: transparent;
+}
+.btn-link:hover,
+.btn-link:focus {
+  color: #23527c;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+  color: #777;
+  text-decoration: none;
+}
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+.btn-sm,
+.btn-group-sm > .btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.btn-xs,
+.btn-group-xs > .btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.btn-block + .btn-block {
+  margin-top: 5px;
+}
+
+
+
 	/*
 	@tab Page
 	@section background style
@@ -222,7 +701,7 @@
 		}
 		
 		.headerContainer {
-			padding-top: 49px;
+			padding-top: 29px;
 		}
 	/*
 	@tab Body
@@ -325,7 +804,7 @@
 		img.irlogo {
 		}
 		img.withITeams {
-			max-width: 50%;
+			max-width: 200px;
 			padding-top: 10px;
 		}
 
@@ -583,7 +1062,7 @@
                         
                         <td mc:edit="preheadertxt" valign="top" class="mcnTextContent" style="padding-top:9px; padding-left:9px; padding-bottom:9px; padding-right:0;">
                         
-                            Thank you for signing the Transformation Declaration!
+                            Here's your latest impact report from ITeams.
                         </td>
                     </tr>
                 </tbody></table>
@@ -630,13 +1109,12 @@
                                         
                                        
                                         
-                                        <img align="left" alt="IMPACT REPORT" src="https://gallery.mailchimp.com/c2ce47add15fcafd7072b3dd2/images/5c36c59a-340f-4c3f-9108-55294fb93e01.png?_ga=1.165919481.695743575.1394809957" width="142" style="max-width:142px; padding-bottom: 0; padding-left: 1px; display: inline !important; vertical-align: bottom;" class="mcnImage irlogo">
+                                        <img align="center" alt="IMPACT REPORT" src="https://gallery.mailchimp.com/c2ce47add15fcafd7072b3dd2/images/8a2de5e4-8080-49fe-ac06-5e336eeee774.png" width="350" style="max-width:100%; margin: 0 auto; padding-bottom: 0; padding-left: 1px; display: block !important; vertical-align: bottom;" class="mcnImage irlogo" />
                                         
-                                        <img align="right" alt="WITH ITEAMS" src="https://gallery.mailchimp.com/c2ce47add15fcafd7072b3dd2/images/f936f38a-5adf-4e5b-adfa-a6997f33bd4a.png?_ga=1.229339227.695743575.1394809957" style="" class="mcnImage withITeams">
+                                    
                                         
-                                         <div style="float: left; margin-top: 1px; width: 100%;"><img align="left" alt="integrated community transformation" src="http://gallery.mailchimp.com/c2ce47add15fcafd7072b3dd2/images/dc8add7b-1937-4804-a33f-716ba4498eb7.png" width="205" style="max-width:205px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage"></div>
-                                         
-                                         
+
+
                                        
                                 
                             </td>
@@ -675,120 +1153,91 @@
                         
                         <td valign="top" class="mcnTextContent" style="padding-top:20px; padding-right: 40px; padding-bottom: 0px; padding-left: 40px;">
                         
-                        <h1 mc:edit="quote" style="font-family: 'Minion Pro', Georgia, serif; text-align: center; padding-bottom: 20px; margin-bottom: 10px;"><em>Thank you for signing...</em></h1>
-                        <div style="width: 100%; border-top: 1px solid #dadada; border-bottom: 1px solid #dadada; margin-bottom: 20px; margin-top: 20px;"><img alt="The Declaration" src="https://gallery.mailchimp.com/c2ce47add15fcafd7072b3dd2/images/d8c90dac-cda1-4ca4-bb88-28c7e98b9e6d.png" style="max-width:500px; padding-bottom: 20px; padding-left: 0; padding-top: 20px; margin-left: 0;" class="mcnImage" /></div>
+                        <h1 mc:edit="quote" style="font-family: 'Minion Pro', Georgia, serif; text-align: center; padding-bottom: 20px; margin-bottom: 10px; color: #ff5400 !important;"><em>...</em></h1>
                         
-                        <h1 style="font-family: 'Minion Pro', Georgia, serif; padding-bottom: 20px;">Things are not alright. Therefore, we choose to stand against the status quo. We choose to see the invisible, give a voice to the voiceless, create beauty from ashes, rediscover dignity, restore hope. Circumstances can't erase the fact that every person is of equal value in the eyes of Jesus. We choose to see every person through the eyes of Jesus. We won't separate mission and compassion, because Jesus doesn't. We will pursue transformation in an integrated way that honors the community where we live and work, collaborating with others whenever possible. We choose to work alongside the oppressed and not over them. We identify with the outcasts. We choose to live in a way that reflects Jesus. We believe no one should be invisible and everyone should have access to food, freedom, and forgiveness.</h1>
-                            
-                            
-                        </td>
-                    </tr>
-                </tbody></table>
-                
-                 	<!--divider-->
-                  	<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock">
-    				<tbody class="mcnDividerBlockOuter">
-        			<tr>
-            		<td class="mcnDividerBlockInner" style="padding: 9px 18px 0px;">
-                	<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top-width: 1px;border-top-style: solid;border-top-color: #E3E5E6;">
-                    <tbody><tr>
-                        <td>
-                            <span></span>
-                        </td>
-                    </tr>
-                	</tbody></table>
-            		</td>
-        			</tr>
-    				</tbody>
-					</table>
-					<!--end divider-->
-                
-            </td>
-        </tr>
-    </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock">
-    <tbody class="mcnTextBlockOuter" mc:repeatable mc:hideable>
-        <tr>
-            <td valign="top" class="mcnTextBlockInner">
-                
-                <table align="center" border="0" cellpadding="0" cellspacing="0" width="598" class="mcnTextContentContainer">
-                    <tbody><tr>
                         
-                        <td mc:edit="xxxxxx" valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 36px; padding-bottom: 9px; padding-left: 36px; color: #ff5400;">
                         
-                        <h2>What happens now?</h2>
-				
-						<p>Signing <em>The Declaration</em> entitles you to receive IN<strong>SIGHT</strong> emails...</p>
-			
-                        IN<strong>SIGHT</strong> emails are designed for deep impact in only 1 minute. They prompt us to fix our eyes on Jesus and move with him toward integrated community transformation. Share it with anyone who longs to see lives and communities transformed by the power of God.
                         
-                        <p>We'll be developing more resources and experiences to help you engage in ICT where you are, and as a signer of <em>The Declaration</em> you'll be among the first to know of these opportunities.</p>
+<div class="repeat-block">
                         
-                        <p style="font-style: italic;">Please see all of our IN<strong>SIGHT</strong> articles at <a href="http://iteams.us/impact">www.iteams.us/impact</a> and engage the community in conversation there.</p>
+                    <div class="pulldivider"></div>
                         
-                        </td>
-                    </tr>
-                </tbody></table>
-                
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-<!-- main feature blocks -->
-
-<!-- PRAYER -->
-<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" mc:repeatable mc:hideable>
-    <tbody class="mcnImageBlockOuter">
-            <tr>
-                <td valign="top" style="padding:0px" class="mcnImageBlockInner">
-                   
-                  
- <!--divider-->
-                  	<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock">
-    				<tbody class="mcnDividerBlockOuter">
-        			<tr>
-            		<td class="mcnDividerBlockInner" style="padding: 9px 18px 0px;">
-                	<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top-width: 1px;border-top-style: solid;border-top-color: #E3E5E6;">
-                    <tbody><tr>
-                        <td>
-                            <span></span>
-                        </td>
-                    </tr>
-                	</tbody></table>
-            		</td>
-        			</tr>
-    				</tbody>
-					</table>
-					<!--end divider-->                    
-
-                     
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="598" class="mcnTextContentContainer">
-                    <tbody><tr>
-                        
-                         <td valign="top" class="mcnTextContent" style="padding-top:27px; padding-right: 40px; padding-bottom: 36px; padding-left: 40px;">
-                        
-                            <h1 mc:edit="prayer" style="font-family: 'Minion Pro', Georgia, serif;"><em>Thank you for standing with the oppressed.</em></h1>
-                      <br />      
-                            <img src="https://gallery.mailchimp.com/c2ce47add15fcafd7072b3dd2/images/ca44d776-d8b4-488e-a6b1-e0af55e55fb8.png" style="padding-top: 10px; margin-right: 15px; margin-bottom: 0px; float: left; width: 100px;" tag="" />
-
-<p><strong>Scott Olson</strong><br />
-President &amp; CEO<br />
-<a href="http://iteams.us">INTERNATIONAL TEAMS</a>
-</p>
-                        </td>
-                        
-                    </tr>
-                	</tbody></table>
-                  
-                  	
+                        <img class="mcnImage" style="width: 100%; max-height: 338px; object-fit: cover; padding-top: 5px; padding-bottom: 5px;" src="https://gallery.mailchimp.com/c2ce47add15fcafd7072b3dd2/images/6fcf1957-6415-4141-bc11-6dd90a629792.jpg" />
                     
-                </td>
-            </tr>
+                    <div class="pulldivider"></div>
+					
+                        <h2 style="font-family: 'Minion Pro', Georgia, serif; padding-bottom: 20px; font-weight: normal;">Refugee mothers are often invisible. Being the primary caregiver of their children leaves them at home without access to a community or opportunities to learn and practice English. At the Homework Club in Rockwood (Portland, Oregon), our tutoring center for refugee and immigrant families, mothers can come with their children to have some adult interactions, practice English and simply been seen and valued.</h2>
+                        
+                      
+                      
+                        <!-- READ THE STORY -->
+                        <div style="text-align: center; padding-bottom: 28px;">            
+						<a href="https://percival.iteams.us/article/community-update-for-rockwood-oregon-usa" class="btn btn-primary" style="color: #fff !important; margin-right: 10px; text-decoration: none;">READ MORE</a>
+						</div>   
+                 
+                 		<h1 mc:edit="quote" style="font-family: 'Minion Pro', Georgia, serif; text-align: center; padding-bottom: 20px; margin-bottom: 10px; color: #ff5400 !important;"><em>...</em></h1>
+                           
+</div><!-- /.repeat-block -->                         
+                           
+   
+   <div class="repeat-block">
+                        
+                    <div class="pulldivider"></div>
+                        
+                        <img class="mcnImage" style="width: 100%; max-height: 338px; object-fit: cover; padding-top: 5px; padding-bottom: 5px;" src="https://gallery.mailchimp.com/c2ce47add15fcafd7072b3dd2/images/d7e8e82d-ac13-4191-be5a-ec1336214ba6.jpg" />
+                    
+                    <div class="pulldivider"></div>
+					
+                        <h2 style="font-family: 'Minion Pro', Georgia, serif; padding-bottom: 20px; font-weight: normal;">In Uzhgorod, Ukraine, thousands of Roma young people are trapped within their squatter camps because they see no hope of escaping. All they see ahead of them is a life of sifting through garbage, cleaning streets, begging, or stealing. Only 20% of the Roma children go to school because the parents see no hope of them escaping as well and education is not necessary for those tasks. We recently partnered with Roma Integration to start a pilot Roma youth mentoring course. We spent ten weeks with ten young Roma and introduced them to professional Roma doctors, businessmen, politicians, and pastors who had escaped the poverty of the camps. This instilled in them a hope that they could escape as well as these mentors shared what they had to do, like get a good education, to get out of the camps.</h2>
+                        
+                      
+                      
+                        <!-- READ THE STORY -->
+                        <div style="text-align: center; padding-bottom: 28px;">            
+						<a href="https://percival.iteams.us/article/community-update-for-uzhgorod-ukraine" class="btn btn-primary" style="color: #fff !important; margin-right: 10px; text-decoration: none;">READ MORE</a>
+						</div>   
+						
+						<h1 mc:edit="quote" style="font-family: 'Minion Pro', Georgia, serif; text-align: center; padding-bottom: 20px; margin-bottom: 10px; color: #ff5400 !important;"><em>...</em></h1>
+                           
+</div><!-- /.repeat-block -->      
+
+
+<div class="repeat-block">
+                        
+                    <div class="pulldivider"></div>
+                        
+                        <img class="mcnImage" style="width: 100%; max-height: 338px; object-fit: cover; padding-top: 5px; padding-bottom: 5px;" src="https://gallery.mailchimp.com/c2ce47add15fcafd7072b3dd2/images/55bc94f9-eadb-43ee-a204-6a5e4e186cf2.jpeg" />
+                    
+                    <div class="pulldivider"></div>
+					
+                        <h2 style="font-family: 'Minion Pro', Georgia, serif; padding-bottom: 20px; font-weight: normal;">In Carrick (Pittsburgh, PA) our neighbor Meg is 21 and has pretty much been on his own since he was eight. His mom left when he was three. His dad remarried and encouraged his father and her daughter to shun Meg. He slept at different people’s houses in the refugee camp in Nepal and often disappeared for days at a time.<br /><br />
+
+Jesus found Meg when he was 15 and his life was flipped upside down. He still had little relationship with his family but when we moved to Carrick in 2015 Meg had just moved in across the street. He is at our place several days a week and often stays until late in the evenings. Meg is discipling us. We are discipling him. He has become our surrogate son and he is not invisible. We are in the process of trying to see Meg moved into formal leadership with ITeams and join our team as he has a clear call to ministry on his life.</h2>
+                        
+                      
+                      
+                        <!-- READ THE STORY -->
+                        <div style="text-align: center; padding-bottom: 28px;">            
+						<a href="https://percival.iteams.us/article/community-update-for-carrick-pennsylvania-usa" class="btn btn-primary" style="color: #fff !important; margin-right: 10px; text-decoration: none;">READ MORE</a>
+						</div>   
+						
+						<h1 mc:edit="quote" style="font-family: 'Minion Pro', Georgia, serif; text-align: center; padding-bottom: 20px; margin-bottom: 10px; color: #ff5400 !important;"><em>...</em></h1>
+                           
+</div><!-- /.repeat-block -->      
+
+            
+                            
+                        </td>
+                    </tr>
+                </tbody></table>
+                
+                
+            </td>
+        </tr>
     </tbody>
 </table>
-<!-- END PRAYER -->
-<!-- end main feature blocks -->
+
+
 
 </td>
                                                                 </tr>
@@ -818,13 +1267,15 @@ President &amp; CEO<br />
                 <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer">
                     <tbody><tr>
                         
-                        <td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
-                        
-                          	<a href="http://vimeo.com/ITeamsUSA" style="border:0;text-decoration:none;"><img align="right" src="https://gallery.mailchimp.com/c2ce47add15fcafd7072b3dd2/images/8de96a66-3290-4c9e-bf15-a2d5342dd369.png" style="padding: 0 10px;" alt="Vimeo" /></a>
+                        <td align="center" valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
+                        	<center>
+                          	<a href="http://vimeo.com/ITeamsUSA" style="border:0;text-decoration:none;"><img src="https://gallery.mailchimp.com/c2ce47add15fcafd7072b3dd2/images/8de96a66-3290-4c9e-bf15-a2d5342dd369.png" style="padding: 0 10px;" alt="Vimeo" /></a>
                                                   
-                        	<a href="http://facebook.com/ITeamsUSA" style="border:0;text-decoration:none;"><img align="right" src="https://gallery.mailchimp.com/c2ce47add15fcafd7072b3dd2/images/6dbbc767-7178-41e8-944d-5adcdd124161.png" style="padding: 0 10px;" alt="Facebook" /></a>
+                        	<a href="http://facebook.com/ITeamsUSA" style="border:0;text-decoration:none;"><img src="https://gallery.mailchimp.com/c2ce47add15fcafd7072b3dd2/images/6dbbc767-7178-41e8-944d-5adcdd124161.png" style="padding: 0 10px;" alt="Facebook" /></a>
                         
-                      		<a href="http://twitter.com/ITeamsUSA" style="border:0;text-decoration:none;"><img align="right" src="https://gallery.mailchimp.com/c2ce47add15fcafd7072b3dd2/images/1eee8b03-b7dd-4071-b81a-32d357da506d.png" style="padding: 0 10px;" alt="Twitter" /></a>
+                      		<a href="http://twitter.com/ITeamsUSA" style="border:0;text-decoration:none;"><img src="https://gallery.mailchimp.com/c2ce47add15fcafd7072b3dd2/images/1eee8b03-b7dd-4071-b81a-32d357da506d.png" style="padding: 0 10px;" alt="Twitter" /></a>
+                      		</center>
+                      		
                         </td>
                         </tr>
                         <tr>
